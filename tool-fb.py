@@ -19,8 +19,8 @@ driver=webdriver.Chrome()
 driver.get("https://www.facebook.com/")
 # driver.get("https://www.facebook.com/")
 # time.sleep(2) 
-driver.find_element("name","email").send_keys("trandangkhoittfb@gmail.com")
-driver.find_element("name","pass").send_keys("trandangkhoi1906")
+driver.find_element("name","email").send_keys("*******")#taikhoan
+driver.find_element("name","pass").send_keys("*******")#matkhau
 driver.find_element("name","login").click()
 # time.sleep(5)
 
